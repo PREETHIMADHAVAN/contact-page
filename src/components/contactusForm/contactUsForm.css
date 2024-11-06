@@ -1,0 +1,50 @@
+.formHeaderButtons{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10px;        
+    
+}
+button{
+    flex: 1 1 45%;    
+  box-sizing: border-box;  
+  text-align: center;
+}
+
+button:nth-child(3) {
+    flex: 1 1 100%;  
+  }
+
+
+.formController{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+}
+
+.formController > input,
+.formController > textarea{
+   
+    border-radius: 5px ;
+}
+.formController > input{
+    height: 40px;
+    padding: 0px 8px;
+}
+
+.formController > textarea{
+    padding: 10px 8px;
+}
+
+.formController > label{
+    font-size: 14px;
+    position: absolute;
+    top:-12px;
+    left:12px;
+    background-color: white;
+    padding: 0 10px;
+}
+.formActionContainer{
+    float: right;
+}

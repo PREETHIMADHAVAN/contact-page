@@ -1,0 +1,22 @@
+.contactUsContainer{
+    margin: 20px;
+}
+.titleClass{
+    font-weight: 500;
+}
+.contactUsDesc{
+    line-height: 26px;
+    width: 80%;
+    margin:10px 0;
+}
+.contactUsContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactUsForm{
+
+}
+.contactUsImg{
+
+}

@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItems{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0 8px;
+    height: 72px;
+    font-weight: 500;
+    gap:24px;
+}
